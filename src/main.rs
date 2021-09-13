@@ -180,8 +180,8 @@ fn create_metadata_account(
     let (metadata_key, _) = Pubkey::find_program_address(metadata_seeds, &program_key);
 
     // Test Metadata
-    let name = String::from("Will Coin");
-    let symbol = String::from("W");
+    let name = String::from("Jeff NFT");
+    let symbol = String::from(J");
     let uri = String::from("https://solana.com");
 
     let new_metadata_instruction = create_metadata_accounts(
